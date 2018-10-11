@@ -59,6 +59,7 @@ function firstUpdate()
 	Cookies.remove("bus");
     });
 
+    $( "#debugTime" ).on("input", updateEndTime);
     $( "#workHours" ).on("input", updateEndTime);
     $( "#lunchMinutes" ).on("input", updateEndTime);
     $( "#startTime" ).on("input", updateEndTime);
