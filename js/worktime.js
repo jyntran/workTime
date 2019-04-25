@@ -15,7 +15,7 @@ function firstUpdate()
     }
 
     if (Cookies.get("startTime")) {
-	const startTime = Cookies.get("startTime").match(/(\d{2})/g);
+	const startTime = Cookies.get("startTime").match(/(\d{2})/g);;
 	$( "#startTime" ).val(startTime[0] + ":" + startTime[1]);
     }
 
