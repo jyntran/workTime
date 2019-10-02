@@ -26,20 +26,20 @@
 <body onload="firstUpdate();">
 
   <div class="ribbon"><span>BETA</span></div>
-  
+
   <div class="header">
     <span class="workTimeText">WorkTime</span>
   </div>
 
   <section id="workTimeSection" class="middle container-rect">
 
-    <div class="input-group input-margin" id="debugContainer">
+    <div class="input-group" id="debugContainer">
       <div class="checkbox" id="debugCheckboxDiv">
 	<input type="checkbox" id="debugCheckbox"
 	       onchange="updateEndTime();">
       </div>
 
-      <div class="input-group clockpicker input-margin" id="debugTimeDiv">
+      <div class="input-group clockpicker" id="debugTimeDiv">
 	<input id="debugTime" type="text" class="form-control" value="08:00"
 	       onKeyDown="if(event.keyCode==13) updateEndTime();">
 	<span class="input-group-addon">
