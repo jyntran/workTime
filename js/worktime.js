@@ -98,7 +98,7 @@ function updateEndTime() {
     date.setMinutes(startTime[1]);
 
     const calcMin = (date.getMinutes() + parseInt(lunchMinutes) +
-		   (parseInt(workHours) * 60));
+		     (parseInt(workHours) * 60));
     date.setMinutes(calcMin);
 
     let hours = date.getHours();
@@ -236,7 +236,7 @@ function toggleColorMode()
         document.getElementById('dispButton').classList.add('btn-dark');
         document.getElementById('dispButton').setAttribute('title','Switch to Dark Mode');
     }
-    console.log(document.documentElement.getAttribute('data-theme'));
+
     localStorage.setItem('theme',document.documentElement.getAttribute('data-theme'));
 }
 
@@ -248,7 +248,6 @@ function toggleColorMode()
  * @param string tabName
  */
 function openTab(event, tabName) {
-    console.log(tabName);
     //get contentTabs and convert to array and hide them all
     let contentTabs = [...document.getElementsByClassName('tabContent')];
     contentTabs.forEach((contentTab) => {
