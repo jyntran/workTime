@@ -18,7 +18,6 @@ A simple web application that helps you **count your time** that you are **spend
 ## Submodules
 - [**FlipClock**](https://github.com/objectivehtml/FlipClock/)
 - [**clockpicker**](https://github.com/weareoutman/clockpicker/)
-- [**js-cookie**](https://github.com/js-cookie/js-cookie/)
 
 ## Contributors
 - [**hqappz**](https://github.com/hqappz)
@@ -28,4 +27,6 @@ A simple web application that helps you **count your time** that you are **spend
 - [**Prakhar-Srivastava**](https://github.com/Prakhar-Srivastava)
 - [**geraldobraz**](https://github.com/geraldobraz)
 - [**Jayashrri**](https://github.com/Jayashrri)
+- [**kimi43maro**](https://github.com/kimi43maro)
+- [**AlexandreInsua**](https://github.com/AlexandreInsua)
 - [**mmikaeleriksson**](https://github.com/mmikaeleriksson)
